@@ -2,12 +2,28 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>backrooms.test</title>
+    <title>backroomsguide</title>
     <style>
         body {
-            color: rgb(9, 9, 0);
-            font-family: Arial, sans-serif;
-        }
+        background-color: #fffacd; 
+        color: rgb(9, 9, 0);
+        font-family: Arial, sans-serif;
+    }
+    nav {
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        text-align: center;
+    }
+    nav{
+        color: white;
+        font-size:  20px;
+        margin:  15px;
+        text-decoration: none;
+    }
+    nav a {
+        color: #ffffff;
+        margin: 0 20px;
+    }
         h1 {
             color: black;
             font-size: 40px;
@@ -37,12 +53,39 @@
             width: 100px; 
             height: auto; 
             vertical-align: middle;
-            
+            transition: transform 0.3s ease;
+            }
+            img:hover {
+        transform: scale(1.5); 
+            }
+        h5{
+            color: darkred;
+            font-size: 50px;
+        }
+        p{
+            font-size: 30px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h6{
+            color: black;
+            text-decoration: overline;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#Subclas">Cубкласс</a>
+        <a href="#Safe">Субкласс SAFE</a>
+        <a href="#Unsafe">Субклас Unsafe</a>
+        <a href="#Dangerous">Субклас Dangerous</a>
+        <a href="#VDangerous">Субклас VeryDangerous</a>
+    </nav>
+    
+    <h2 id="Subclas"></h2>
     <h1><b>categories of backrooms lvl's</b></h1>
+    <h2 id="Safe"></h2>
     <h2>CLASS SAFE</h2>
     <h3>
         SubClass Pi
@@ -75,6 +118,7 @@
     <li>Неосвоен</li>
     <li>Сущности не найдены</li>
     <li>Класификация:Неопределен/безопасен,UNO,SF</li>
+    <h2 id="Unsafe"></h2>
     <h2>CLASS UNSAFE</h2>
     <h3>SubClass 2
         <img src ="https://static.wikia.nocookie.net/backrooms/images/7/79/Class2.png/revision/latest?cb=20220409072439&path-prefix=ru">
@@ -96,6 +140,7 @@
     <li>Неопределённое физическое состояние</li>
     <li>Бактериальные сущности</li>
     <li>Классификация: Рискованый,RSK</li>
+    <h2 id="Dangerous"></h2>
     <h4>CLASS DANGEROUS</h4>
     <h3>Subclass Глаз Аргоса
         <img src ="https://static.wikia.nocookie.net/backrooms/images/7/7e/Class_Argos.png/revision/latest?cb=20241013182055&path-prefix=ru">
@@ -127,12 +172,45 @@
     <li>Информация отсуствует</li>
     <li>Классификация:Неопределен,UNO</li>
     <h3>Subclass 0.1
-        <img src = "https://static.wikia.nocookie.net/backrooms/images/4/41/Class0.png/revision/latest?cb=20240816163210&path-prefix=ru"
+        <img src = "https://static.wikia.nocookie.net/backrooms/images/4/41/Class0.png/revision/latest?cb=20240816163210&path-prefix=ru">
     </h3>
     <li>Странно стабилен</li>
     <li>Абсолютно безопасен</li>
     <li>воздействует на психику</li>
     <li>Классификация:Рискованый,RSK
-    </li>
+    <h3>Subclass  Изменный +
+        <img src ="https://static.wikia.nocookie.net/backrooms/images/6/64/ClassNA.png/revision/latest?cb=20220605074526&path-prefix=ru">
+    </h3>
+    <li>Опасен</li>
+    <li>Нестабилен</li>
+    <li>среднее кол-во сущностей</li>
+    <li>Класификация:Небезопасен,UNSF</li>
+    <h3>Sublacss Уровень ЙОТА
+        <img src ="https://static.wikia.nocookie.net/backrooms/images/e/e9/Classiota.png/revision/latest?cb=20230222200724&path-prefix=ru">
+    </h3>
+    <li>Небезопасен</li>
+    <li>Аномальная структура уровня</li>
+    <li>Может быть нестабильным</li>
+    <li>Наличие сущносте Неопределено</li>
+    <li>Класификация: Опасен VUNSF, RSK</li>
+    <h2 id="VDangerous"></h2>
+    <h5>VERY DANGERROUS</h5>
+    <h3>Subclass 5B
+        <img  src = "https://static.wikia.nocookie.net/backrooms/images/5/5e/Class5black.gif/revision/latest?cb=20231205153752&path-prefix=ru">
+    </h3>
+    <li>Очень опасен</li>
+    <li>Обилие сущностей</li>
+    <li>Крайне нестабилен</li>
+    <li>Сильное воздействее на психику</li>
+    <li>Сущности максимально агресивные</li>
+    <li>Класификация: Крайне Опасен, DNG</li>
+    <h3>Subclass 5+
+        <img src ="https://static.wikia.nocookie.net/backrooms/images/9/94/Class5%2B.png/revision/latest?cb=20230220075620&path-prefix=ru">
+    </h3>
+    <li>Очень опасен</li>
+    <li>Очень Нестабильный</li>
+    <li>Много сущностей</li>
+    <li>Класификация:Очень опасен ,VDNG</li>
+    <h6>Вся информация взята с сайта:https://backrooms.fandom.com/ru/wiki Также вся информация являеться не офицальной а написана ФАНДОМОМ.</h6>
 </body>
 </html>
